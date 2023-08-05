@@ -34,6 +34,13 @@ export default function AxiosStockDataComponent() {
         })
     }
     
+    const getStockDataArrowFunc = () => {
+         debugger;
+        axios.get(baseURL).then( (response)=> {
+            alert('Stock Data retrived');
+        })
+    }
+    
     return (
         <div>
             <h1>This is Stock Component {sbiStock}</h1>

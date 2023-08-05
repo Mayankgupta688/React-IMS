@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import AxiosStockDataComponent from "./components/AxiosStockDataComponent";
+import EmployeeAddComponent from "./components/EmployeeAddComponent";
 
 ReactDOM.render((
     <div id="sample">
-        <AxiosStockDataComponent></AxiosStockDataComponent>
+        <EmployeeAddComponent></EmployeeAddComponent>
     </div>
 ), document.getElementById("root"));
 
