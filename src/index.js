@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import IncrementComponent from "./components/IncrementComponent";
+import AxiosStockDataComponent from "./components/AxiosStockDataComponent";
 
 ReactDOM.render((
     <div id="sample">
-        <IncrementComponent></IncrementComponent>
+        <AxiosStockDataComponent></AxiosStockDataComponent>
     </div>
 ), document.getElementById("root"));
 
