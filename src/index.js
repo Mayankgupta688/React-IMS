@@ -1,11 +1,10 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import {NewComponentOne , NewComponentTwo} from "./components/listingStateUp/HigherOrderComponent";
+import AddNewComponent from "./components/AddEmployeeComponent.js/AddNewComponent";
 
 ReactDOM.render((
     <div id="sample">
-        <NewComponentOne></NewComponentOne><br /><hr/>
-        <NewComponentTwo></NewComponentTwo>
+        <AddNewComponent></AddNewComponent>
     </div>
 ), document.getElementById("root"));
 
